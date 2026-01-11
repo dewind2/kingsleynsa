@@ -192,7 +192,7 @@ const App: React.FC = () => {
               <div key={project.id} className="glass-card rounded-[2rem] overflow-hidden flex flex-col group">
                 <div className="relative overflow-hidden aspect-video">
                   <img 
-                    src={project.imageUrl} 
+                    src="/king.png"
                     alt={project.title} 
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
                   />
