@@ -98,7 +98,7 @@ const App: React.FC = () => {
             
             <div className="relative aspect-square md:aspect-[4/5] rounded-3xl overflow-hidden glass-card p-2">
               <img 
-                src="king.PNG" 
+                src="./king.png" 
                 alt="Kingsley Nsa" 
                 className="w-full h-full object-cover rounded-2xl grayscale hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
               />
@@ -192,7 +192,7 @@ const App: React.FC = () => {
               <div key={project.id} className="glass-card rounded-[2rem] overflow-hidden flex flex-col group">
                 <div className="relative overflow-hidden aspect-video">
                   <img 
-                    src="king.PNG"
+                    src={project.imageUrl} 
                     alt={project.title} 
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
                   />
