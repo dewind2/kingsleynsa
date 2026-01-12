@@ -98,7 +98,7 @@ const App: React.FC = () => {
             
             <div className="relative aspect-square md:aspect-[4/5] rounded-3xl overflow-hidden glass-card p-2">
               <img 
-                src="./king.PNG" 
+                src="https://quickbuytech-product-assets.s3.eu-north-1.amazonaws.com/king.png" 
                 alt="Kingsley Nsa" 
                 className="w-full h-full object-cover rounded-2xl grayscale hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
               />
